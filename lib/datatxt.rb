@@ -1,5 +1,5 @@
 require "datatxt/version"
-require "datatxt/element"
+require "datatxt/nex"
 
 module Datatxt
 
@@ -12,7 +12,7 @@ module Datatxt
   end
 
   class Configuration
-    attr_accessor :api_key, :endpoint
+    attr_accessor :app_id, :app_key, :endpoint
   end
 
   class BadResponse < Exception; end

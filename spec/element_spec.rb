@@ -6,8 +6,9 @@ describe Datatxt::Nex, vcr: vcr_options do
 
   before(:all) do
     Datatxt.configure do |c|
-      c.app_id = ""
-      c.app_key = ""
+      # account: Mario Rossi <datatxt@mailinator.com>
+      c.app_id = "e0bca290"
+      c.app_key = "2294c676b8698383764514cc219fad92"
       c.endpoint = "https://api.dandelion.eu/datatxt/"
     end
   end

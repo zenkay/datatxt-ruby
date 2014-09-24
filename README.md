@@ -1,6 +1,6 @@
-# dataTXT [![Code Climate](https://codeclimate.com/github/zenkay/datatxt-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/datatxt-ruby) [![Travis CI](https://travis-ci.org/zenkay/datatxt-ruby.svg?branch=master)](https://travis-ci.org/zenkay/datatxt-ruby)
+# [![Ruby Gem Icon](https://raw.githubusercontent.com/zenkay/datatxt-ruby/master/rubygem.png)](https://rubygems.org/gems/datatxt) dataTXT Ruby Gem
 
-Ruby Gem for interaction with [dataTXT](https://dandelion.eu/products/datatxt/) APIs
+[![Code Climate](https://codeclimate.com/github/zenkay/datatxt-ruby/badges/gpa.svg)](https://codeclimate.com/github/zenkay/datatxt-ruby) [![Travis CI](https://travis-ci.org/zenkay/datatxt-ruby.svg?branch=master)](https://travis-ci.org/zenkay/datatxt-ruby) [![Gem Version](https://badge.fury.io/rb/datatxt.svg)](http://badge.fury.io/rb/datatxt)
 
 ## Installation
 

@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.dandelion.eu/datatxt/li/v1
+    body:
+      encoding: UTF-8
+      string: "%24app_id=e0bca290&%24app_key=2294c676b8698383764514cc219fad92&text=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre"
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 28 Sep 2014 17:24:54 GMT
+      X-Dl-Request-Id:
+      - e74cedce-0df6-43fe-4d33-a0a9db6d2a0e
+      X-Dl-Units:
+      - '0.1'
+      X-Dl-Units-Left:
+      - '986.9'
+      X-Dl-Units-Reset:
+      - '2014-09-29 00:00:00 +0000'
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"time":1,"detectedLangs":[{"lang":"it","confidence":1.0}],"timestamp":"2014-09-28T17:24:54.478"}'
+    http_version: 
+  recorded_at: Sun, 28 Sep 2014 17:24:55 GMT
+recorded_with: VCR 2.9.3

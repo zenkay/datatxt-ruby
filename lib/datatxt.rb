@@ -1,5 +1,8 @@
 require "datatxt/version"
+require "datatxt/base"
 require "datatxt/nex"
+require "datatxt/sim"
+require "datatxt/li"
 
 module Datatxt
 

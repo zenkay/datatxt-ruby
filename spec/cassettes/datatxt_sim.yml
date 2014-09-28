@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.dandelion.eu/datatxt/sim/v1
+    body:
+      encoding: UTF-8
+      string: "%24app_id=e0bca290&%24app_key=2294c676b8698383764514cc219fad92&text1=Mio+padre+che+mi+spinge+a+mangiare+e+guai+se+non+finisco+mio+padre+che+vuol+farmi+guidare+mi+frena+con+il+fischio+il+bambino+pi%C3%B9+grande+mi+mena+davanti+a+tutti+gli+altri+lui+che+passa+per+caso+mi+salva+e+mi+condanna+per+sempre&text2=Mio+padre+di+spalle+sul+piatto+si+mangia+la+vita+e+poi+sulla+pista+da+ballo+fa+un+valzer+dentro+il+suo+nuovo+vestito"
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 28 Sep 2014 17:21:49 GMT
+      X-Dl-Request-Id:
+      - d613fc9c-5f0c-4efe-6f60-330e481d70a5
+      X-Dl-Units:
+      - '3.0'
+      X-Dl-Units-Left:
+      - '987'
+      X-Dl-Units-Reset:
+      - '2014-09-29 00:00:00 +0000'
+      Content-Length:
+      - '98'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"time":3,"similarity":0.0,"lang":"it","langConfidence":1.0,"timestamp":"2014-09-28T17:21:49.533"}'
+    http_version: 
+  recorded_at: Sun, 28 Sep 2014 17:21:50 GMT
+recorded_with: VCR 2.9.3

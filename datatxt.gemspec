@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Datatxt::VERSION
   spec.authors       = ["Andrea Mostosi"]
   spec.email         = ["andrea.mostosi@zenkay.net"]
-  spec.summary       = %q{Gem for dataTXT API (dandelion.eu)}
-  spec.description   = %q{Gem for dataTXT API (dandelion.eu)}
-  spec.homepage      = ""
+  spec.summary       = %q{Ruby Gem for Dandelion's dataTXT service}
+  spec.description   = %q{Ruby Gem for Dandelion's dataTXT service (dandelion.eu)}
+  spec.homepage      = "https://github.com/zenkay/datatxt-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version     = '~> 2.0'
+  spec.required_ruby_version = '~> 2.0'
 
   spec.add_dependency "faraday", '~> 0.9', '>= 0.9.0'
   spec.add_dependency "faraday_middleware", '~> 0.9', '>= 0.9.1'
